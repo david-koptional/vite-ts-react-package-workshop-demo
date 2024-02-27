@@ -7,7 +7,7 @@ export default defineConfig({
     lib: {
       entry: "src/index.ts", // Your entry here
       name: "MyReactPage", // Name of your package here
-      fileName: (format) => `my-package.${format}.js`,
+      fileName: (format) => `my-react-package.${format}.js`,
     },
     rollupOptions: {
       external: ["react", "react-dom"],
