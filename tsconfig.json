@@ -1,9 +1,9 @@
 {
   "compilerOptions": {
-    "target": "esnext",
-    "module": "esnext",
+    "target": "esnext", // Make sure to compile using latest ecmascript features
+    "module": "esnext", // Make sure to compile using latest ecmascript features
     "strict": true,
-    "jsx": "preserve",
+    "jsx": "react-jsx", //
     "importHelpers": true,
     "moduleResolution": "node",
     "experimentalDecorators": true,
@@ -15,8 +15,8 @@
     "paths": {
       "/@/*": ["src/*"]
     },
-    "lib": ["esnext", "dom"],
-    "declaration": true
+    "lib": ["esnext", "dom"], //Make sure to include 'dom' since we're working with React. Ensure it's included in dist
+    "declaration": true // Set to generate .d.ts files. You'll need these to include type definitions in your package
   },
   "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.d.ts", "tests/**/*.ts"],
   "exclude": ["node_modules"]
