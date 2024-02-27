@@ -1,7 +1,7 @@
 {
   "name": "my-react-package",
   "private": true,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "main": "dist/my-react-package.umd.js",
   "module": "dist/my-react-package.es.js",
