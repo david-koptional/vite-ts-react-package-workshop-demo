@@ -1,6 +1,6 @@
 {
   "name": "david-koptional-demo",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "type": "module",
   "main": "dist/david-koptional-demo.umd.js",
   "module": "dist/david-koptional-demo.es.js",
