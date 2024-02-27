@@ -3,7 +3,7 @@
     "target": "esnext", // Make sure to compile using latest ecmascript features
     "module": "esnext", // Make sure to compile using latest ecmascript features
     "strict": true,
-    "jsx": "react-jsx", //
+    "jsx": "preserve", //
     "importHelpers": true,
     "moduleResolution": "node",
     "experimentalDecorators": true,
