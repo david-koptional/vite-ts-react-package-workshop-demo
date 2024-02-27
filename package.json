@@ -1,9 +1,9 @@
 {
-  "name": "my-react-package",
+  "name": "david-koptional-demo",
   "version": "1.0.1",
   "type": "module",
-  "main": "dist/my-react-package.umd.js",
-  "module": "dist/my-react-package.es.js",
+  "main": "dist/david-koptional-demo.umd.js",
+  "module": "dist/david-koptional-demo.es.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "dev": "vite",
